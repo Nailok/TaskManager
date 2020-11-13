@@ -23,10 +23,10 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
-#Style check
+# Style check
 gem 'rubocop'
 
-#Gem for tests
+# Gem for tests
 gem 'factory_bot'
 
 # Reduces boot times through caching; required in config/boot.rb
