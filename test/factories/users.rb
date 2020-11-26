@@ -4,19 +4,19 @@ FactoryBot.define do
     last_name
     password
     email
-    avatar { "MyString" }
-    type { "" }
+    avatar { 'MyString' }
+    type { '' }
   end
 
   factory :developer, parent: :user do
-    type { "Developer" }
+    type { 'Developer' }
   end
 
-  factory :admin, parent: :user do 
-    type { "Admin" }
+  factory :admin, parent: :user do
+    type { 'Admin' }
   end
 
   factory :manager, parent: :user do
-    type { "Manager" }
+    type { 'Manager' }
   end
 end
